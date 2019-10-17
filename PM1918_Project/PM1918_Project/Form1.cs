@@ -19,22 +19,27 @@ namespace PM1918_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Snake frmsecond = new Snake();
+            frmsecond.Show();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Bladsteenschaar frmsecond = new Bladsteenschaar();
+            frmsecond.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Pong frmsecond = new Pong();
+            frmsecond.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Mainmenu frmsecond = new Mainmenu();
+            frmsecond.Show();
         }
     }
 }
