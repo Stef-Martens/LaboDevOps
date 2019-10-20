@@ -33,6 +33,7 @@
             this.pong_button = new System.Windows.Forms.Button();
             this.back_to_main = new System.Windows.Forms.Button();
             this.quitButton = new System.Windows.Forms.Button();
+            this.totalScoreLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // snake_button
@@ -89,11 +90,21 @@
             this.quitButton.UseVisualStyleBackColor = true;
             this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
             // 
+            // totalScoreLabel
+            // 
+            this.totalScoreLabel.AutoSize = true;
+            this.totalScoreLabel.Location = new System.Drawing.Point(441, 28);
+            this.totalScoreLabel.Name = "totalScoreLabel";
+            this.totalScoreLabel.Size = new System.Drawing.Size(97, 17);
+            this.totalScoreLabel.TabIndex = 5;
+            this.totalScoreLabel.Text = "Total Score: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.totalScoreLabel);
             this.Controls.Add(this.quitButton);
             this.Controls.Add(this.back_to_main);
             this.Controls.Add(this.pong_button);
@@ -103,6 +114,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -113,6 +125,7 @@
         private System.Windows.Forms.Button pong_button;
         private System.Windows.Forms.Button back_to_main;
         private System.Windows.Forms.Button quitButton;
+        private System.Windows.Forms.Label totalScoreLabel;
     }
 }
 
