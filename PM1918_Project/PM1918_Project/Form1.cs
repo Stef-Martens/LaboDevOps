@@ -7,20 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace PM1918_Project
 {
     public partial class Form1 : Form
     {
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         public Form1()
         {
             InitializeComponent();
+            player.SoundLocation = "menuMusic.wav";
+            player.Play();
+
         }
 
+       
         private void button1_Click(object sender, EventArgs e)
         {
             Snake frmsecond = new Snake();
+            
             frmsecond.Show();
+
 
         }
 
@@ -45,13 +53,11 @@ namespace PM1918_Project
         private void quitButton_Click(object sender, EventArgs e)
         {
             if (System.Windows.Forms.Application.MessageLoop)
-            {
-                // WinForms app
+            {        
                 System.Windows.Forms.Application.Exit();
             }
             else
             {
-                // Console app
                 System.Environment.Exit(1);
             }
         }
