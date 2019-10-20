@@ -41,5 +41,19 @@ namespace PM1918_Project
             Mainmenu frmsecond = new Mainmenu();
             frmsecond.Show();
         }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            if (System.Windows.Forms.Application.MessageLoop)
+            {
+                // WinForms app
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                // Console app
+                System.Environment.Exit(1);
+            }
+        }
     }
 }
