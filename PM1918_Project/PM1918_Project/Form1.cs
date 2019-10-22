@@ -8,18 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Runtime.InteropServices;
 
 namespace PM1918_Project
 {
     public partial class Form1 : Form
     {
+       
         System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         public Form1()
         {
             InitializeComponent();
             player.SoundLocation = "menuMusic.wav";
             player.Play();
-
         }
 
        
@@ -28,6 +29,9 @@ namespace PM1918_Project
             Snake frmsecond = new Snake();
             
             frmsecond.Show();
+            //PlaySnake();
+
+            
 
 
         }
