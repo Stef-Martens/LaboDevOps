@@ -1,0 +1,9 @@
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.exe.config
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.exe
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.pdb
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.csprojAssemblyReference.cache
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Form1.resources
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Properties.Resources.resources
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.csproj.GenerateResource.cache
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.exe
+D:\programs\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.pdb
