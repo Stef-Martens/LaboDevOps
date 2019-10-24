@@ -16,5 +16,10 @@ namespace PM1918_Project
         {
             InitializeComponent();
         }
+
+        private void Pong_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

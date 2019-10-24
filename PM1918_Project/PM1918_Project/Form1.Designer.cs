@@ -39,7 +39,7 @@
             // snake_button
             // 
             this.snake_button.Location = new System.Drawing.Point(400, 234);
-            this.snake_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.snake_button.Margin = new System.Windows.Forms.Padding(4);
             this.snake_button.Name = "snake_button";
             this.snake_button.Size = new System.Drawing.Size(173, 28);
             this.snake_button.TabIndex = 0;
@@ -50,7 +50,7 @@
             // bss_button
             // 
             this.bss_button.Location = new System.Drawing.Point(400, 288);
-            this.bss_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bss_button.Margin = new System.Windows.Forms.Padding(4);
             this.bss_button.Name = "bss_button";
             this.bss_button.Size = new System.Drawing.Size(173, 28);
             this.bss_button.TabIndex = 1;
@@ -61,7 +61,7 @@
             // pong_button
             // 
             this.pong_button.Location = new System.Drawing.Point(400, 342);
-            this.pong_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pong_button.Margin = new System.Windows.Forms.Padding(4);
             this.pong_button.Name = "pong_button";
             this.pong_button.Size = new System.Drawing.Size(173, 28);
             this.pong_button.TabIndex = 2;
@@ -72,7 +72,7 @@
             // back_to_main
             // 
             this.back_to_main.Location = new System.Drawing.Point(400, 465);
-            this.back_to_main.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.back_to_main.Margin = new System.Windows.Forms.Padding(4);
             this.back_to_main.Name = "back_to_main";
             this.back_to_main.Size = new System.Drawing.Size(173, 28);
             this.back_to_main.TabIndex = 3;
@@ -110,9 +110,10 @@
             this.Controls.Add(this.pong_button);
             this.Controls.Add(this.bss_button);
             this.Controls.Add(this.snake_button);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

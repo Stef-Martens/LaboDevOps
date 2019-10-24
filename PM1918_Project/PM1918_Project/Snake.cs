@@ -32,7 +32,7 @@ namespace PM1918_Project
         bool rePlaceFood = true;
 
         private void Form1_Load(object sender, EventArgs e)
-        {
+        { 
             panel1.BackColor = Color.Red; //Red background of board
             EndGameLabel.Cursor = Cursors.Hand;
             foodXPos = new int[10];

@@ -65,5 +65,10 @@ namespace PM1918_Project
                 System.Environment.Exit(1);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

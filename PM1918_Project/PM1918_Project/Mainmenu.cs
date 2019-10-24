@@ -16,5 +16,10 @@ namespace PM1918_Project
         {
             InitializeComponent();
         }
+
+        private void Mainmenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
