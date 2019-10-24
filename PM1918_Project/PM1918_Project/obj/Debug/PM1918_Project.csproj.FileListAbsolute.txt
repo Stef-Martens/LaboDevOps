@@ -21,3 +21,14 @@ C:\Users\claen\OneDrive\Documents\2019-2020\Project Management\PM19-pm1918\PM191
 >>>>>>> Stashed changes
 C:\Users\claen\OneDrive\Documents\2019-2020\Project Management\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Form1.resources
 C:\Users\claen\OneDrive\Documents\2019-2020\Project Management\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Snake.resources
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.exe.config
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.exe
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\bin\Debug\PM1918_Project.pdb
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.csprojAssemblyReference.cache
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Form1.resources
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Properties.Resources.resources
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.Snake.resources
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.csproj.GenerateResource.cache
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.csproj.CoreCompileInputs.cache
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.exe
+C:\Users\janbc\Source\Repos\PM19-pm1918\PM1918_Project\PM1918_Project\obj\Debug\PM1918_Project.pdb

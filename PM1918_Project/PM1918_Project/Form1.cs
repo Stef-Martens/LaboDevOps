@@ -50,8 +50,6 @@ namespace PM1918_Project
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Mainmenu frmsecond = new Mainmenu();
-            frmsecond.Show();
         }
 
         private void quitButton_Click(object sender, EventArgs e)
