@@ -28,45 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.snake_button = new System.Windows.Forms.Button();
-            this.bss_button = new System.Windows.Forms.Button();
-            this.pong_button = new System.Windows.Forms.Button();
             this.quitButton = new System.Windows.Forms.Button();
             this.totalScoreLabel = new System.Windows.Forms.Label();
+            this.pong_button = new System.Windows.Forms.Button();
+            this.bss_button = new System.Windows.Forms.Button();
+            this.snake_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // snake_button
-            // 
-            this.snake_button.Location = new System.Drawing.Point(400, 234);
-            this.snake_button.Margin = new System.Windows.Forms.Padding(4);
-            this.snake_button.Name = "snake_button";
-            this.snake_button.Size = new System.Drawing.Size(173, 28);
-            this.snake_button.TabIndex = 0;
-            this.snake_button.Text = "Snake";
-            this.snake_button.UseVisualStyleBackColor = true;
-            this.snake_button.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // bss_button
-            // 
-            this.bss_button.Location = new System.Drawing.Point(400, 288);
-            this.bss_button.Margin = new System.Windows.Forms.Padding(4);
-            this.bss_button.Name = "bss_button";
-            this.bss_button.Size = new System.Drawing.Size(173, 28);
-            this.bss_button.TabIndex = 1;
-            this.bss_button.Text = "Blad-Steen-Schaar";
-            this.bss_button.UseVisualStyleBackColor = true;
-            this.bss_button.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // pong_button
-            // 
-            this.pong_button.Location = new System.Drawing.Point(400, 342);
-            this.pong_button.Margin = new System.Windows.Forms.Padding(4);
-            this.pong_button.Name = "pong_button";
-            this.pong_button.Size = new System.Drawing.Size(173, 28);
-            this.pong_button.TabIndex = 2;
-            this.pong_button.Text = "Pong";
-            this.pong_button.UseVisualStyleBackColor = true;
-            this.pong_button.Click += new System.EventHandler(this.button3_Click);
             // 
             // quitButton
             // 
@@ -86,6 +53,44 @@
             this.totalScoreLabel.Size = new System.Drawing.Size(97, 17);
             this.totalScoreLabel.TabIndex = 5;
             this.totalScoreLabel.Text = "Total Score: 0";
+            // 
+            // pong_button
+            // 
+            this.pong_button.BackColor = System.Drawing.Color.Blue;
+            this.pong_button.BackgroundImage = global::PM1918_Project.Properties.Resources.unity_2d_pong;
+            this.pong_button.Location = new System.Drawing.Point(616, 131);
+            this.pong_button.Margin = new System.Windows.Forms.Padding(4);
+            this.pong_button.Name = "pong_button";
+            this.pong_button.Size = new System.Drawing.Size(175, 175);
+            this.pong_button.TabIndex = 2;
+            this.pong_button.Text = "Pong";
+            this.pong_button.UseVisualStyleBackColor = false;
+            this.pong_button.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // bss_button
+            // 
+            this.bss_button.BackColor = System.Drawing.Color.DarkOrange;
+            this.bss_button.BackgroundImage = global::PM1918_Project.Properties.Resources.cropped_LOGO_1;
+            this.bss_button.Location = new System.Drawing.Point(397, 253);
+            this.bss_button.Margin = new System.Windows.Forms.Padding(4);
+            this.bss_button.Name = "bss_button";
+            this.bss_button.Size = new System.Drawing.Size(175, 175);
+            this.bss_button.TabIndex = 1;
+            this.bss_button.Text = "Blad-Steen-Schaar";
+            this.bss_button.UseVisualStyleBackColor = false;
+            this.bss_button.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // snake_button
+            // 
+            this.snake_button.BackgroundImage = global::PM1918_Project.Properties.Resources.Python_Snake_Game;
+            this.snake_button.Location = new System.Drawing.Point(182, 131);
+            this.snake_button.Margin = new System.Windows.Forms.Padding(4);
+            this.snake_button.Name = "snake_button";
+            this.snake_button.Size = new System.Drawing.Size(175, 175);
+            this.snake_button.TabIndex = 0;
+            this.snake_button.Text = "Snake";
+            this.snake_button.UseVisualStyleBackColor = true;
+            this.snake_button.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

@@ -89,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Snake.resx">
       <DependentUpon>Snake.cs</DependentUpon>
@@ -105,6 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Photos\cropped-LOGO-1.png" />
+    <Content Include="Photos\Python-Snake-Game.jpg" />
+    <Content Include="Photos\unity_2d_pong.png" />
+    <None Include="Resources\cropped-LOGO-1.png" />
+    <None Include="Resources\unity_2d_pong.png" />
+    <None Include="Resources\Python-Snake-Game.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
