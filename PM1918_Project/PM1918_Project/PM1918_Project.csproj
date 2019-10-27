@@ -78,17 +78,8 @@
     <Compile Include="Snake.Designer.cs">
       <DependentUpon>Snake.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bladsteenschaar.resx">
-      <DependentUpon>Bladsteenschaar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mainmenu.resx">
-      <DependentUpon>Mainmenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pong.resx">
-      <DependentUpon>Pong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,13 +108,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\papier.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\schaar.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\steen.png" />
+    <Content Include="Photos\cropped-LOGO-1.png" />
+    <Content Include="Photos\Python-Snake-Game.jpg" />
+    <Content Include="Photos\unity_2d_pong.png" />
+    <None Include="Resources\cropped-LOGO-1.png" />
+    <None Include="Resources\unity_2d_pong.png" />
+    <None Include="Resources\Python-Snake-Game.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
